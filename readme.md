@@ -7,7 +7,8 @@ This dashboard follows **industry-standard data modeling**, **advanced DAX calcu
 ---
 
 ### 🔗 Live Dashboard: 
-https://app.powerbi.com/view?r=eyJrIjoiYjdiZjk2YjQtYWU3OC00ZGI2LWJmMjQtMWIyYjcwYjU4MDVjIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9
+<iframe title="Sales & Customer Intelligence Dashboard" width="600" height="373.5" 
+  src="https://app.powerbi.com/view?r=eyJrIjoiYjdiZjk2YjQtYWU3OC00ZGI2LWJmMjQtMWIyYjcwYjU4MDVjIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ---
 ---

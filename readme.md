@@ -7,8 +7,7 @@ This dashboard follows **industry-standard data modeling**, **advanced DAX calcu
 ---
 
 ### 🔗 Live Dashboard: 
-https://app.powerbi.com/view?r=eyJrIjoiYjdiZjk2YjQtYWU3OC00ZGI2LWJmMjQtMWIyYjcwYjU4MDVjIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9
-
+https://app.powerbi.com/view?r=eyJrIjoiYTljZGQ0YzYtNmMyZi00YmQwLWIyMGYtZTJhNjlkNGRiY2UzIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9 
 ---
 ---
 ## 🧠 Project Objective

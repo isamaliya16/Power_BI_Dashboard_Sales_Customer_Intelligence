@@ -1,10 +1,16 @@
-# 📊 Final Project – Sales & Customer Intelligence Dashboard (Power BI)
+# 📊 Sales & Customer Intelligence Dashboard (Power BI)
 
 A comprehensive **Power BI Desktop project** designed to deliver **data-driven insights** into **Sales, Returns, Customer Behavior, and Regional Performance** over the last **three years**.  
 This dashboard follows **industry-standard data modeling**, **advanced DAX calculations**, and **executive-level visualization practices**.
 
 ---
+---
 
+### 🔗 Live Dashboard: 
+https://app.powerbi.com/view?r=eyJrIjoiYjdiZjk2YjQtYWU3OC00ZGI2LWJmMjQtMWIyYjcwYjU4MDVjIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9
+
+---
+---
 ## 🧠 Project Objective
 
 To build an **interactive and scalable business intelligence solution** that enables senior leadership to:

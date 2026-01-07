@@ -179,16 +179,21 @@ The project uses structured Excel datasets organized into **Fact and Dimension t
 
 ## 📸 Dashboard Preview
 
-> *(Add dashboard screenshots here for better GitHub presentation)*
-
+<p align="center">
+  <img src="images/Dashboard/01.dashboard.png" width="900">
+<img src="images/Dashboard/02. Customer Analysis.png " width="900">
+  <img src="images/Dashboard/03. Sales Analysis.png" width="900">
+  <img src="images/Dashboard/04 Return.png" width="900">
+  
+  </p>
 ---
 
 ## 🤝 Connect With Me
 
 If you found this project useful or would like to collaborate:
 
-- 💼 **LinkedIn:** *(Add your LinkedIn link)*
-- 📧 **Email:** *(Optional)*
+- 💼 **LinkedIn:** https://www.linkedin.com/in/ayush-isamaliya-686533312/
+- 📧 **Email:** aisamaliya8@gmail.com
 
 ---
 

@@ -197,4 +197,9 @@ If you found this project useful or would like to collaborate:
 
 ---
 
+## 👨‍💻 Author 
+**Ayush Isamaliya**  
+Data Analyst | Power BI Developer  
+---
+
 ⭐ **If you like this project, don’t forget to star the repository!**

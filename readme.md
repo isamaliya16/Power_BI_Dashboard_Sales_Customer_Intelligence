@@ -7,9 +7,10 @@ This dashboard follows **industry-standard data modeling**, **advanced DAX calcu
 ---
 
 ### 🔗 Live Dashboard: 
-#### https://app.powerbi.com/view?r=eyJrIjoiNjMxMDZmZmItMTUxMy00OTQ1LWE3ZDktYWI5MzZhNDA5OGFkIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9
-
+#### https://app.powerbi.com/view?r=eyJrIjoiMTg3ODAzM2QtYmQwYS00YzcwLWFiMDUtMmJkZDM0NmJkNTk3IiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9 
 ---
+---
+
 ## 🧠 Project Objective
 
 To build an **interactive and scalable business intelligence solution** that enables senior leadership to:

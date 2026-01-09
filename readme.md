@@ -1,109 +1,191 @@
-from pypandoc import convert_text
+# 📊 Sales & Customer Intelligence Dashboard (Power BI)
 
-content = r"""
-# 📘 Student Performance Dashboard – Academic & Behavioral Insights
+A comprehensive **Power BI Desktop project** designed to deliver **data-driven insights** into **Sales, Returns, Customer Behavior, and Regional Performance** over the last **three years**.  
+This dashboard follows **industry-standard data modeling**, **advanced DAX calculations**, and **executive-level visualization practices**.
+
+---
+---
 
 ### 🔗 Live Dashboard: 
-#### https://app.powerbi.com/view?r=eyJrIjoiMjlhZTM0MGItOTYxNy00MjhmLTg3MzItZTQ0NTUzYzJkZmEzIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9 
---- 
+#### https://app.powerbi.com/view?r=eyJrIjoiNjMxMDZmZmItMTUxMy00OTQ1LWE3ZDktYWI5MzZhNDA5OGFkIiwidCI6ImNmZDY4M2U1LTc5YWItNDc3Yy1hODE4LWNkNTRmZjIxMmE4ZiJ9
 
-## 🔎 Overview
+---
+## 🧠 Project Objective
 
-- ✅ Analyze academic scores  
-- ✅ Track attendance  
-- ✅ Evaluate behavior patterns  
-- ✅ Support data-driven decisions
-
-This dashboard provides a unified view of student academic and behavioral performance using Power BI and DAX.
+To build an **interactive and scalable business intelligence solution** that enables senior leadership to:
+- Monitor overall sales and profitability
+- Understand customer behavior
+- Analyze product and regional performance
+- Track returns and seasonal trends
+- Make confident, data-driven decisions
 
 ---
 
-## 🔷 Problem Statement
+## 🏷️ Project Name
 
-- Institutions lack combined academic + behavior insights  
-- Attendance impact not clearly visible  
-- Student progress tracking is complex  
-- Behavior logs remain unused
+**Final Project – Sales & Customer Intelligence Dashboard**
 
 ---
 
-## ✅ Features
+## 🛠️ Tools & Technologies
 
-- ✔ Interactive slicers for Class, Section, Subject, Term  
-- ✔ Student-wise profiling  
-- ✔ Trend analysis by term  
-- ✔ Attendance percentage  
-- ✔ Behavior distribution  
-- ✔ Conditional formatting  
-- ✔ Bookmark navigation  
-- ✔ Drillthrough student page
+- **Power BI Desktop**
+- **DAX (Data Analysis Expressions)**
+- **Power Query (ETL)**
+- **Excel (Data Source)**
 
 ---
 
-## 🛠 Tech Stack
+## 🗂️ Dataset Overview
 
-- 📊 Power BI Desktop  
-- 🧮 DAX  
-- 🗄 CSV / Excel  
-- 🔗 Data Modeling  
-- 📐 Storytelling
+The project uses structured Excel datasets organized into **Fact and Dimension tables**:
 
----
-
-## 🖼 Dashboard Screenshots
-
-![Screenshot1](images/Dashboard/images1.png)  
-![Screenshot2](images/Dashboard/images2.png)  
-![Screenshot3](images/Dashboard/images3.png)
-![Screenshot3](images/Dashboard/images4.png)
----
-
-## 💡 Insights Generated
-
-- 📌 Subject performance by class  
-- 📌 Low attendance vs score  
-- 📌 Behavior count  
-- 📌 Term improvement  
-- 📌 Intervention cases
+| Table Name       | Description |
+|------------------|-------------|
+| `Sales_Fact`     | Sales transactions (amount, quantity, cost) |
+| `Returns_Fact`   | Product return details |
+| `Customer_Dim`   | Customer profiles & segmentation |
+| `Product_Dim`    | Product categories and pricing |
+| `Region_Dim`     | Regional and manager information |
+| `Date_Dim`       | Calendar table for time intelligence |
 
 ---
 
-## 📂 Dataset Details
+## 🧩 Data Modeling (Star Schema)
 
-1. Students.csv – StudentID, Name, Gender, Class, Section  
-2. Scores.csv – StudentID, Subject, ExamType, Score, MaxScore, Term  
-3. Attendance.csv – StudentID, Date, Status, Reason  
-4. Behavior.csv – StudentID, Date, Behavior Type, Notes
+- Implemented a **clean Star Schema**
+- One-to-Many relationships between Fact and Dimension tables
+- Hidden technical columns for a clean report view
+- Consistent naming conventions for scalability
 
----
-
-## 🧮 DAX Measures
-
-- % Score = Score / MaxScore  
-- Average Score per Subject  
-- Attendance %  
-- Behavior Count  
-- Performance Category
+📌 **Model Highlights**
+- Optimized performance
+- Easy filtering and drill-down
+- Best practices followed
 
 ---
 
-## 🚀 Installation / Usage
+## 📐 DAX Measures & Calculations
 
-1. Install Power BI Desktop  
-2. Open .pbix file  
-3. Refresh data paths  
-4. Explore with slicers  
-5. Publish to Service
+### 🔹 Core KPIs
+- Total Sales
+- Total Profit
+- Profit Margin %
+- Total Returns
+- Total Quantity Sold
+
+### 🔹 Advanced DAX Usage
+- `CALCULATE`, `FILTER`, `ALL`
+- `SUMX`, `COUNTX`, `AVERAGEX`
+- `SWITCH` for KPI classification
+- `RELATED` for dimensional lookups
+
+### 🔹 Time Intelligence
+- Year-to-Date (YTD)
+- Month-over-Month (MoM)
+- Year-over-Year (YoY)
+- Seasonal trend analysis
 
 ---
 
-## 🔮 Future Enhancements
+## 📊 Dashboard Pages
 
-- 📱 Mobile layout  
-- 🤖 Predictive analytics  
-- 🔐 RLS security  
-- 🔄 Auto CSV sync
+### 🟦 1. Executive Summary
+- KPI Cards (Sales, Profit, Margin, Returns)
+- Sales trend with forecast
+- Sales by Region
+- Top Products overview
 
+### 🟩 2. Sales & Customer Analysis
+- Customer-wise sales & profit matrix
+- Top N Customers by Profit
+- Product performance analysis
+- Conditional formatting for insights
+
+### 🟨 3. Returns & Regional Performance
+- Returns by product and region
+- Return trends over time
+- Comparative performance analysis
+
+### 🟪 4. Drillthrough Page
+- Detailed Product / Customer insights
+- Context-aware drillthrough navigation
+
+---
+
+## 🎛️ Filters & Interactivity
+
+- Slicers for:
+  - Date
+  - Region
+  - Product Category
+  - Customer Segment
+- Drill Up / Drill Down
+- Drillthrough filters
+- Numeric Range Parameter for custom filtering
+
+---
+
+## 🧭 Navigation & User Experience
+
+- Custom navigation buttons
+- Bookmarks for reset & navigation
+- Collapsible slicer panel
+- Tooltip pages with mini KPIs
+- Advanced conditional formatting
+- Consistent modern color theme
+
+---
+
+## 📱 Mobile Optimization
+
+- Dedicated mobile layout
+- Focus on:
+  - KPI Cards
+  - Top N visuals
+  - Sales trends
+- Touch-friendly design for executives
+
+---
+
+## 🔐 Row-Level Security (RLS)
+
+- Role-based access for **Region Managers**
+- Users can only view their assigned regional data
+- Tested using **View As Role**
+
+---
+
+## 📦 Deliverables
+
+- ✅ Power BI Report (`.pbix`)
+- ✅ Star Schema Data Model
+- ✅ Advanced DAX Measures
+- ✅ Multi-Page Interactive Dashboard
+- ✅ Mobile Layout View
+- ✅ Row-Level Security Configuration
+- ✅ DAX Measures Documentation
+
+---
+
+## 🚀 Key Learnings & Outcomes
+
+- Enterprise-level Power BI architecture
+- Strong DAX and Time Intelligence skills
+- Business-focused dashboard design
+- Leadership-ready analytics solution
+
+---
+
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="images/Dashboard/01.dashboard.png" width="900">
+<img src="images/Dashboard/02. Customer Analysis.png " width="900">
+  <img src="images/Dashboard/03. Sales Analysis.png" width="900">
+  <img src="images/Dashboard/04 Return.png" width="900">
+  
+  </p>
 ---
 
 ## 🤝 Connect With Me
@@ -115,3 +197,4 @@ If you found this project useful or would like to collaborate:
 
 ---
 
+⭐ **If you like this project, don’t forget to star the repository!**
